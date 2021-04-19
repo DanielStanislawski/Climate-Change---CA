@@ -1,0 +1,162 @@
+body, html {
+  height: 100%;
+    margin=0;
+    padding:0;
+    
+}
+main
+{
+    color: black;
+    text-align:center
+}
+
+h1
+{
+    color: black;
+    text-align:center;
+    font-family:  "Marker Felt", fantasy;
+}
+
+h2
+{
+    color:black;
+    text-align: center;
+    font-family:  "Marker Felt", fantasy;
+}
+
+h3
+{
+    color:black;
+    text-align: center;
+    font-family:  "Marker Felt", fantasy;
+}
+nav
+{
+    background-color: white;
+    padding:0px
+    position: relative;
+}
+
+nav ul
+{
+    text-align: left ;
+    font-size: 1em;
+    margin: 2;
+    position: relative;
+    margin-left: -2em;
+    font-family:  "Lato", sans-serif;
+}
+
+nav ul li 
+{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li:hover
+{
+    background-color: grey;
+    border: 10px solid grey;
+    opacity: 0.6;
+}
+
+nav ul li a
+{
+    color: black;
+    text-decoration: none;
+}
+
+footer 
+{
+ position:relative;
+   bottom:0;
+   width:100%;
+   color:black;
+   text-align: center;
+   font-family:  "Marker Felt", fantasy;
+    color: white;
+   height:40px;   
+   background-color: black;
+}
+
+
+.center
+{
+    
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+hr.solid {
+  border-top: 10px solid #000000;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+img {
+  border-radius: 15px;
+}
+.row {
+  display: flex;
+    margin-top: 50px;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 250px; 
+  margin: 5px;
+  border: 5px solid #70757E;
+}
+
+.top-left {
+  position: absolute;
+    display: block;
+  top: 600px;
+  left: 500px;
+}
+    
+.middle-right {
+  position: absolute;
+  top: 200px;
+  right: 400px;
+}
+
+.bottom-right {
+  position: absolute;
+  top: 800px;
+  right: 400px;
+}
+
+.center
+{
+  margin-left: 0px;
+  margin-right: 50px;
+  border: 2px solid white;
+}
+
+.container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+footer 
+{
+ position:relative;
+   bottom:0;
+   width:100%;
+   color:black;
+   text-align: center;
+   font-family:  "Marker Felt", fantasy;
+    color: white;
+   height:25px;   
+   background-color: black;
+}
+
+
